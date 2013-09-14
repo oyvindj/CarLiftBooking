@@ -5,11 +5,7 @@
     <meta charset="utf-8">
     <title>Sample app</title>
     <link rel="stylesheet" href="carliftbooking.css">
-    
-    <!-- import the click-counter -->
-    <link rel="import" href="clickcounter.html">
-    <!-- This is the bootstrap script for Polymer. 
-         Use this INSTEAD of dart.js -->
+    <link rel="import" href="selecttime.html">
     <script src="packages/polymer/boot.js"></script>
   </head>
   <body>
@@ -19,7 +15,7 @@
     
     <div id="sample_container_id">
       <template id="tmpl" bind>
-        <click-counter count="{{}}"></click-counter>
+        <select-time count="{{}}"></select-time>
       </template>
     </div>
 
