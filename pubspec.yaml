@@ -1,0 +1,4 @@
+name: CarLiftBooking
+description: A sample Polymer application
+dependencies:
+    polymer: any
